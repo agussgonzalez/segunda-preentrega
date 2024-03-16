@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector de Color RGB</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Selector de Color RGB</h1>
+        <div class="colorCaja" id="colorBox"></div>
+        <h4>Desliza las barras para variar los valores (0-255)</h4>
+        <label for="red">Rojo:</label>
+        <input type="range" id="red" min="0" max="255" value="0">
+        <span id="redValue">0</span>
+        <label for="green">Verde:</label>
+        <input type="range" id="green" min="0" max="255" value="0">
+        <span id="greenValue">0</span>
+        <label for="blue">Azul:</label>
+        <input type="range" id="blue" min="0" max="255" value="0">
+        <span id="blueValue">0</span>
+    </div>
+    <div id="color-picker">
+        <input type="color" id="color-input" value="#000000">
+        <button onclick="copyColor()">Copiar color</button>
+    </div>
+    <script src="Js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffb066;
+}
+
+.contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.colorCaja {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid #4d1414;
+}
